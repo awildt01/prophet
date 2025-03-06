@@ -1,4 +1,4 @@
-# Zeitreihenanalyse-zur-Nachfrageprognose.
+# Análise de Séries Temporais para Previsão de Demanda.
   
  [![author](https://img.shields.io/badge/author-wildt-red.svg)](https://www.linkedin.com/in/carlosfab) [![](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-365/) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/carlosfab/data_science/issues)
 
@@ -11,16 +11,7 @@
 <sub>*Lead Data Scientist*</sub>
 
 
-
-
-Dieses Projekt zielt darauf ab, ein Vorhersagemodell für die Weinindustrie zu
- entwickeln, um die Bestellmengen basierend auf historischen Verkaufsdaten 
-zu optimieren. Dabei wird Facebook Prophet als Zeitreihenmodell genutzt, 
-um saisonale Muster und Trends zu erfassen. Zur Optimierung der 
-Modellparameter kommt Optuna zum Einsatz, während die Modellgüte mit 
-Cross-Validation (Zeitreihen-Validierung) bewertet wird. Die 
-Hauptmetriken zur Modellbewertung sind MAPE (Mean Absolute Percentage Error) und MAE (Mean Absolute Error), um 
-die Vorhersagegenauigkeit sowohl während der Optimierung als auch auf Testdaten zu messen. 
+Este projeto tem como objetivo desenvolver um modelo de previsão para a indústria de vinhos, a fim de otimizar as quantidades de pedidos com base em dados históricos de vendas. O Facebook Prophet é utilizado como modelo de série temporal para capturar padrões sazonais e tendências. Para otimizar os parâmetros do modelo, é empregado o Optuna, enquanto a qualidade do modelo é avaliada com Validação Cruzada (validação de série temporal). As principais métricas para avaliação do modelo são o MAPE (Erro Percentual Absoluto Médio) e o MAE (Erro Absoluto Médio), para medir a precisão da previsão tanto durante a otimização quanto em dados de teste.
 
 <br>
 <p align=center>
@@ -33,8 +24,8 @@ die Vorhersagegenauigkeit sowohl während der Optimierung als auch auf Testdaten
 * [Medium](https://medium.com/@alexandrewildtgraziani/time-series-data-with-facebook-prophet-3d9ac21fef6c)
 * [Blog](https://sigmoidal.ai)
 
-### Beschaffung der Daten
-Alle hier verwendeten Daten wurden von [Rafael Duarte](https://www.linkedin.com/in/rafael-n-duarte/?source=user_about----------------------95e660a7ce9---------------) und Sigmoidal zu verfügung gestellt.
+### Obtenção dos Dados
+Todos os dados utilizados aqui foram fornecidos por [Rafael Duarte](https://www.linkedin.com/in/rafael-n-duarte/?source=user_about----------------------95e660a7ce9---------------) e pela Sigmoidal..
 
 Die Daten sind in zwei Dateien aufgeteilt: eine enthält die historischen Verkaufsdaten, die andere Informationen über die Weine. Beide Dateien wurden in der Cloud gespeichert:
 
