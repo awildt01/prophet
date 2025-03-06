@@ -43,59 +43,59 @@ O foco está em refinar ainda mais a metodologia de previsão para atender aos d
 
 <br>
 
-### Projektstruktur
+### Estrutura do Projeto
 
-Das Ziel das Projekt ist eine explorative Datenanalyse (EDA) durchzuführen. Wir werden die ersten Einblick in der Daten erhalten, Muster identifizieren und Hypothesen aufstellen.
-Die folgenden schritt werden in der Analyse durch durchgeführt
 
-**1.  Datenvorbereitung**
+O objetivo do projeto é realizar uma análise exploratória de dados (EDA). Vamos obter os primeiros insights dos dados, identificar padrões e formular hipóteses. Os seguintes passos serão realizados na análise:
 
-        1.1 Datenimport: Laden der Verkaufsdaten aus CSV-Dateien oder einer Datenbank.
+**1. Preparação dos Dados**
 
-        1.2 Erste Datenanalyse: Überblick über Spalten, Datentypen und erste visuelle Inspektion.
+    1.1 Importação dos Dados: Carregar os dados de vendas a partir de arquivos CSV ou de uma base de dados.
 
-        1.3 Datenbereinigung: Behandlung fehlender Werte, Entfernen von Dubletten und Identifikation von Ausreißern.
+    1.2 Primeira Análise dos Dados: Visão geral das colunas, tipos de dados e primeira inspeção visual.
 
-**2. Explorative Datenanalyse (EDA)**
+    1.3 Limpeza dos Dados: Tratamento de valores ausentes, remoção de duplicatas e identificação de outliers.
 
-        2.1  Deskriptive Statistik: Berechnung von Mittelwert, Median, Standardabweichung etc.
-  
-        2.2  Datenvisualisierung: Erstellen von Diagrammen zur Verteilung und Trends der Verkaufszahlen.
-  
-        2.3  Korrelationsanalyse: Untersuchung der Beziehungen zwischen verschiedenen Variablen.
+**2. Análise Exploratória de Dados (EDA)**
+
+     2.1 Estatística Descritiva: Cálculo de média, mediana, desvio padrão, etc.
+
+    2.2 Visualização de Dados: Criação de gráficos para distribuição e tendências dos números de vendas.
+
+    2.3 Análise de Correlação: Investigação das relações entre diferentes variáveis.
 
 **3. Feature Engineering**
 
-         3.1 Erstellung von Dummy-Variablen: Umwandlung von kategorischen Variablen in numerische Werte (One-Hot-Encoding).
-  
-         3.2 Hinzufügen externer Regressoren: Berücksichtigung von Feiertagen, Produzenten, Ländern und Regionen als erklärende Variablen.
-  
-         3.3 Erstellung zeitbasierter Features: Z. B. Wochentag, Monat, Quartal, Feiertage oder saisonale Effekte.
+    3.1 Criação de Variáveis Dummy: Transformação de variáveis categóricas em valores numéricos (One-Hot-Encoding).
 
-**4. Modellierung mit Facebook Prophet**
+    3.2 Adição de Regressores Externos: Consideração de feriados, produtores, países e regiões como variáveis explicativas.
+
+    3.3 Criação de Features Baseadas no Tempo: Por exemplo, dia da semana, mês, trimestre, feriados ou efeitos sazonais.
+
+**4. Modelagem com Facebook Prophet**
    
-       4.1 Modellerstellung: Definition des Prophet-Modells mit saisonalen Komponenten und Regressoren.
-   
-       4.2 Hyperparameter-Tuning mit Optuna: Optimierung von changepoint_prior_scale und seasonality_prior_scale zur Verbesserung der Vorhersagegenauigkeit. 
-  
-       4.3 Train-Test-Split: Aufteilung der Daten für Modelltraining und Evaluierung.
+    4.1 Criação do Modelo: Definição do modelo Prophet com componentes sazonais e regressores.
+
+    4.2 Ajuste de Hiperparâmetros com Optuna: Otimização de changepoint_prior_scale e seasonality_prior_scale para melhorar a precisão das previsões.
+
+    4.3 Divisão Train-Test: Separação dos dados para treinamento e avaliação do modelo.
   
 
-**5. Modellbewertung**
+**5. Avaliação do Modelo**
    
-       5.1 Cross-Validation (Zeitreihen-Validierung): Evaluierung des Modells mit zeitbasierten Splits.
-   
-       5.2 Fehlermetriken berechnen: MAPE, MAE und RMSE zur Beurteilung der Modellleistung.
-  
-       5.3 Ergebnisse visualisieren: Vergleich der Vorhersagen mit den tatsächlichen Verkaufswerten.
+     5.1 Validação Cruzada (Validação de Séries Temporais): Avaliação do modelo com divisões baseadas no tempo.
 
-**6. Erkenntnisse & Optimierung**
+    5.2 Cálculo de Métricas de Erro: MAPE, MAE e RMSE para avaliar o desempenho do modelo.
+
+    5.3 Visualização dos Resultados: Comparação das previsões com os valores reais de vendas.
+
+**6. Conclusões e Otimização**
    
-       6.1 Analyse der Ergebnisse: Identifikation von Verbesserungspotenzialen.
-    
-       6.2 Modellanpassungen: Feinabstimmung der Hyperparameter und Feature-Engineering zur Optimierung.
- 
-       6.3 Dokumentation & Fazit: Zusammenfassung der wichtigsten Erkenntnisse und zukünftige Optimierungsmöglichkeiten.
+    6.1 Análise dos Resultados: Identificação de potenciais melhorias.
+
+    6.2 Ajustes no Modelo: Ajuste fino dos hiperparâmetros e engenharia de features para otimização.
+
+    6.3 Documentação e Conclusão: Resumo das principais descobertas e possibilidades futuras de otimização.
 
 
 <br>
