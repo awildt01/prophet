@@ -27,10 +27,11 @@ Este projeto tem como objetivo desenvolver um modelo de previsão para a indúst
 ### Obtenção dos Dados
 Todos os dados utilizados aqui foram fornecidos por [Rafael Duarte](https://www.linkedin.com/in/rafael-n-duarte/?source=user_about----------------------95e660a7ce9---------------) e pela Sigmoidal..
 
-Die Daten sind in zwei Dateien aufgeteilt: eine enthält die historischen Verkaufsdaten, die andere Informationen über die Weine. Beide Dateien wurden in der Cloud gespeichert:
+Os dados estão divididos em dois arquivos: um contém os dados históricos de vendas, e o outro contém informações sobre os vinhos. Ambos os arquivos foram armazenados na nuvem::
 
-- products.csv – Weinkarte eines Wein-E-Commerce. Die Weinkarte sowie die darin enthaltenen Produkte basieren auf dem tatsächlichen Sortiment eines Wein-E-Commerce in den USA. Namen, Jahrgänge und Preise sind vollständig authentisch und wurden in US-Dollar umgerechnet, um eine internationale Vergleichbarkeit und Reichweite zu ermögliche
-- sales.csv - Dieser Datensatz umfasste ursprünglich 5 Jahre tägliche Verkäufe, verteilt auf 10 Geschäfte, mit einem Katalog von 50 Produkten. Er wurde jedoch geändert und umfasst nun 3 Jahre tägliche Verkäufe, verteilt auf 3 Geschäfte mit 219 verschiedenen Produkten auf Lager.
+- products.csv – Carta de vinhos de um e-commerce de vinhos. A carta de vinhos e os produtos nela contidos são baseados no catálogo real de um e-commerce de vinhos nos EUA. Os nomes, safras e preços são totalmente autênticos e foram convertidos para dólares americanos para permitir uma comparação e alcance internacionais.
+
+sales.csv – Este conjunto de dados originalmente abrangia 5 anos de vendas diárias, distribuídas em 10 lojas, com um catálogo de 50 produtos. No entanto, foi modificado e agora abrange 3 anos de vendas diárias, distribuídas em 3 lojas com 219 produtos diferentes em estoque.
 
 
 <br>
