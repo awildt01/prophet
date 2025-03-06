@@ -36,11 +36,10 @@ Os dados estão divididos em dois arquivos: um contém os dados históricos de v
 
 <br>
 
-### Ziel 
+## Objetivo
+A empresa está desenvolvendo uma solução baseada em IA para otimizar a gestão de estoques em lojas de vinhos. No centro dessa solução está um modelo de machine learning que prevê com precisão a demanda futura com base em dados históricos de vendas.
 
-Das Unternehmen entwickelt eine KI-gestützte Lösung zur Optimierung des Bestandsmanagements in Weinhandlungen. Im Kern steht ein Machine-Learning-Modell, das die zukünftige Nachfrage basierend auf historischen Verkaufsdaten präzise prognostiziert.
-
-Der Fokus liegt darauf, die Prognosemethodik weiter zu verfeinern, um den besonderen Herausforderungen des Weinmarktes gerecht zu werden. Dazu zählen Faktoren wie Jahrgangsschwankungen, saisonale Nachfrage, begrenzte Verfügbarkeit und Wertsteigerung einzelner Weine.
+O foco está em refinar ainda mais a metodologia de previsão para atender aos desafios específicos do mercado de vinhos. Isso inclui fatores como variações de safra, demanda sazonal, disponibilidade limitada e valorização de vinhos individuais.
 
 <br>
 
