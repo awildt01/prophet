@@ -4,7 +4,7 @@
 
 
 <p align="center"> 
-  <img src="bild/data-analytics-696x464 (1).jpg.jpg">       
+  <img src="bild/data-analytics-696x464 (1).jpg">       
 </p>  
 
 # Alexandre Wildt Graziani 
