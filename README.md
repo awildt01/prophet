@@ -101,10 +101,8 @@ O objetivo do projeto é realizar uma análise exploratória de dados (EDA). Vam
 <br>
 
 
-
-### Analysis 
-
-Basierend auf den Prognoseergebnissen und der Modellbewertung lassen sich gezielte Maßnahmen zur Optimierung der Bestandsverwaltung und Verkaufsstrategie ableiten. Die Analyse beantwortet zentrale.
+### Análise
+Com base nos resultados das previsões e na avaliação do modelo, é possível derivar medidas específicas para otimizar a gestão de estoques e a estratégia de vendas. A análise responde a questões centrais e fornece insights valiosos que podem contribuir para a melhoria dos processos operacionais. Aqui estão alguns dos aspectos mais importantes que emergem da análise:
 
 
 **1. Welche Produkte sind die Bestseller, und welchen Beitrag leisten sie zum Geschäftserfolg?**
@@ -136,6 +134,36 @@ Basierend auf den Prognoseergebnissen und der Modellbewertung lassen sich geziel
     
         + Vergleich der aktuellen Verkaufszahlen mit historischen Daten zur Identifikation von Wachstumstrends oder Rückgängen.
         + Nutzung dieser Erkenntnisse zur langfristigen Strategieplanung und Angebotsoptimierung.
+
+
+1. Quais produtos são os mais vendidos e qual é a sua contribuição para o sucesso do negócio?
+   
+        + Identificação dos produtos que geram maior receita para uma gestão direcionada do sortimento.
+        + Foco na otimização dos estoques desses itens para cobrir picos de demanda.
+   
+2. Como a gestão de estoque pode ser melhorada?
+
+        + Ajuste das quantidades de pedidos com base nas previsões de vendas para evitar excessos e faltas de estoque.
+        + Implementação de estratégias de armazenamento baseadas em dados para uma alocação de capital mais eficiente.
+3. Quão rentáveis são os pedidos individuais?
+
+
+       + Análise da rentabilidade por pedido, considerando custos médios de envio e valores do carrinho de compras.
+       + Otimização de estratégias de descontos e entrega para aumentar as margens de lucro.
+4. Qual é o impacto de diferentes meses e estações do ano nas vendas?
+
+
+       + Identificação de padrões sazonais de demanda para um melhor planejamento de estratégias de marketing e vendas.
+       + Aumento dos estoques durante períodos de alta temporada para cobrir picos de demanda.
+5. Quais itens têm um ciclo de venda mais longo?
+
+
+       + Identificação de produtos com baixa rotatividade para implementar promoções direcionadas ou ajustes no sortimento.
+       + Redução de itens encalhados por meio de estratégias de preços ou ações de marketing direcionadas.
+6. Como a demanda atual se compara a períodos anteriores?
+
+       + Comparação dos números de vendas atuais com dados históricos para identificar tendências de crescimento ou declínio.
+       + Uso desses insights para planejamento de estratégias de longo prazo e otimização da oferta.
         
 <br>
 Diese datenbasierten Erkenntnisse ermöglichen eine präzisere Steuerung des Geschäfts, minimieren Risiken und maximieren die Rentabilität durch eine optimierte Bestandsplanung.
