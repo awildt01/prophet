@@ -52,7 +52,9 @@ Os dados estão divididos em dois arquivos: um contém os dados históricos de v
 - sales.csv
 
       -  item: número de identificação do item-
+  
       - store: loja
+  
       - sales: quantidade vendida
 
 
