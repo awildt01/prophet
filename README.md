@@ -31,23 +31,23 @@ Os dados estão divididos em dois arquivos: um contém os dados históricos de v
 
 - products.csv
 
-           - country: país de origem do vinho
+      - country: país de origem do vinho
 
-           - item_id: número de identificação do item
+      - item_id: número de identificação do item
 
-           - kind: tipo do vinho: sparkling: espumante, rose sparkling: espumante rosé, white: branco, rosé: rosé, red: tinto
+      - kind: tipo do vinho: sparkling: espumante, rose sparkling: espumante rosé, white: branco, rosé: rosé, red: tinto
 
-            - name: nome do vinho
+      - name: nome do vinho
 
-            - price_brl: preço em reais
+      - price_brl: preço em reais
 
-            -  price_usd: preço em dólar americano
+      -  price_usd: preço em dólar americano
 
-           - producer: nome do produtor do vinho
+      - producer: nome do produtor do vinho
 
-           - region: região de produção do vinho
+      - region: região de produção do vinho
 
-            - vintage: ano da safra
+       - vintage: ano da safra
 
 - sales.csv – Este conjunto de dados originalmente abrangia 5 anos de vendas diárias, distribuídas em 10 lojas, com um catálogo de 50 produtos. No entanto, foi modificado e agora abrange 3 anos de vendas diárias, distribuídas em 3 lojas com 219 produtos diferentes em estoque.
 
