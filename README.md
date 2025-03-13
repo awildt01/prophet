@@ -20,7 +20,7 @@ Este projeto tem como objetivo desenvolver um modelo de previsão para a indúst
 
 
 **Links:**
-* [Notebook](https://colab.research.google.com/drive/1o_ijHL6dHLOSzrjyJuSo6KMShgGtTf9O?usp=sharing)
+* [Notebook](https://colab.research.google.com/drive/1KNwTnRGif0esIZ8zrPeZRG1BvyP9YbuM?usp=sharing)
 * [Medium](https://medium.com/@alexandrewildtgraziani/time-series-data-with-facebook-prophet-3d9ac21fef6c)
 * [Blog](https://sigmoidal.ai)
 
