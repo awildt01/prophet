@@ -21,7 +21,7 @@ Este projeto tem como objetivo desenvolver um modelo de previsão para a indúst
 
 **Links:**
 * [Notebook](https://colab.research.google.com/drive/1KNwTnRGif0esIZ8zrPeZRG1BvyP9YbuM?usp=sharing)
-* [Medium](https://medium.com/@alexandrewildtgraziani/time-series-data-with-facebook-prophet-3d9ac21fef6c)
+* [Medium](https://medium.com/@alexandrewildtgraziani/previs%C3%A3o-de-demanda-utilizando-s%C3%A9ries-temporais-8d3efc0cd388)
 * [Blog](https://sigmoidal.ai)
 
 ### Obtenção dos Dados
