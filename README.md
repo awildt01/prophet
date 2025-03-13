@@ -29,7 +29,17 @@ Todos os dados utilizados aqui foram fornecidos por [Rafael Duarte](https://www.
 
 Os dados estão divididos em dois arquivos: um contém os dados históricos de vendas, e o outro contém informações sobre os vinhos. Ambos os arquivos foram armazenados na nuvem::
 
-- products.csv – Carta de vinhos de um e-commerce de vinhos. A carta de vinhos e os produtos nela contidos são baseados no catálogo real de um e-commerce de vinhos nos EUA. Os nomes, safras e preços são totalmente autênticos e foram convertidos para dólares americanos para permitir uma comparação e alcance internacionais.
+- products.csv
+
+country: país de origem do vinho
+item_id: número de identificação do item
+kind: tipo do vinho: sparkling: espumante, rose sparkling: espumante rosé, white: branco, rosé: rosé, red: tinto
+name: nome do vinho
+price_brl: preço em reais
+price_usd: preço em dólar americano
+producer: nome do produtor do vinho
+region: região de produção do vinho
+vintage: ano da safra
 
 - sales.csv – Este conjunto de dados originalmente abrangia 5 anos de vendas diárias, distribuídas em 10 lojas, com um catálogo de 50 produtos. No entanto, foi modificado e agora abrange 3 anos de vendas diárias, distribuídas em 3 lojas com 219 produtos diferentes em estoque.
 
